@@ -1,7 +1,7 @@
 {
   "name": "nodejs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "engines": {
     "node": ">=16"
@@ -10,9 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/Enriko35/Nodejs.git"
   },
- 
   "bugs": {
     "url": "https://github.com/Enriko35/Nodejs/issues"
   },
-  "homepage": "https://github.com/Enriko35/Nodejs#readme"
+  "homepage": "https://github.com/Enriko35/Nodejs#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
 }
